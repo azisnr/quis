@@ -40,6 +40,7 @@
 body, html {
 	height: 100%;
   font-family: Poppins-Regular, sans-serif;
+  background: #475059;
 }
 
 /*---------------------------------------------*/
@@ -56,12 +57,13 @@ a {
 }
 
 a:focus {
-	outline: none !important;
+  outline: none !important;
+
 }
 
 a:hover {
-	text-decoration: none;
-  color: #a64bf4;
+  text-decoration: none;
+  color: white;
 }
 
 /*---------------------------------------------*/
@@ -139,7 +141,7 @@ iframe {
   font-family: Poppins-Regular;
   font-size: 14px;
   line-height: 1.5;
-  color: #666666;
+  color: #000000;
 }
 
 .txt2 {
@@ -213,7 +215,6 @@ iframe {
 .wrap-input100 {
   width: 100%;
   position: relative;
-  border-bottom: 2px solid #d9d9d9;
 }
 
 .label-input100 {
@@ -222,6 +223,7 @@ iframe {
   color: #333333;
   line-height: 1.5;
   padding-left: 7px;
+  color: white;
 }
 
 .input100 {
@@ -229,11 +231,12 @@ iframe {
   font-size: 16px;
   color: #333333;
   line-height: 1.2;
+  color: white;
 
   display: block;
   width: 100%;
   height: 55px;
-  background: transparent;
+  background: #3a4149;
   padding: 0 7px 0 43px;
 }
 
@@ -306,6 +309,8 @@ iframe {
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-login100-form-btn {
+  width: 30%;
+  margin-left: 35%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
